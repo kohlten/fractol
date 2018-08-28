@@ -1,4 +1,3 @@
-Jenkinsfile (Declarative Pipeline)
 pipline {
 	agent any
 	stages {
