@@ -1,0 +1,16 @@
+WIDTH 1080
+HEIGHT 720
+
+# Value to change the Z height
+# 11 for 42.fdf 8 for mars.fdf
+# 0.0 to use default
+SENSITIVITY 0.0
+
+# Color ranges
+# -1,-1 to turn off that range
+RED 255,255
+GREEN 0,100
+BLUE -1,-1
+
+# Background color, comment out to turn off
+BACKGROUND 0,0,0
