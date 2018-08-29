@@ -11,7 +11,7 @@ pipeline {
 	post {
 		success {
 			sh "make fclean"
-			mail to: 'rowong@student.42.us.org',
+			mail to: 'alex.strole004@gmail.com',
              			subject:"Succeeded! ${currentBuild.fullDisplayName}",
              			body: "Everything is good and great ${env.BUILD_URL}"
 		}
