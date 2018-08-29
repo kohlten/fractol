@@ -10,6 +10,8 @@ pipeline {
 		}
 	}
 	post {
-		sh "./fractol"	
+		success {
+			sh "./fractol"
+		}
 	}
 }
