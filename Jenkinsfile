@@ -9,7 +9,4 @@ pipeline {
 			}
 		}
 	}
-	post {
-		valgrind ./fractol
-	}
 }
