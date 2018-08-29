@@ -10,7 +10,6 @@ pipeline {
 	}
 	post {
 		success {
-			sh "./fractol"
 			sh "make fclean"
 		}
 	}
