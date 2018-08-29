@@ -5,13 +5,13 @@ pipeline {
 			steps {
 				sh "make"
 				sh "echo Done"
-				sh "make fclean"
 			}
 		}
 	}
 	post {
 		success {
 			sh "./fractol"
+			sh "make fclean"
 		}
 	}
 }
