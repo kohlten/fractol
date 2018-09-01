@@ -2,7 +2,7 @@
 
 double norm_sqr(t_complex c)
 {
-	return ((c.re * c.re) + (c.im * c.im))
+	return ((c.re * c.re) + (c.im * c.im));
 }
 
 extern inline t_complex mul_complex(t_complex x, t_complex y)
